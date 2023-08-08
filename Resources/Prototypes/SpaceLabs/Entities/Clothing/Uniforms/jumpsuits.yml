@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTurtleneckHoP
-  name: водолазка главы персонала
+  name: Водолазка главы персонала
   description: Водолазка синего цвета, выглядящая удобной, тёплой и уютной.
   components:
   - type: Sprite

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTurtleneckHoP
+  name: Юбка-водолазка главы персонала
+  description: Юбка-водолазка, выглядящая удобной, тёплой и уютной.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/hop_turtleneckskirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/hop_turtleneckskirt.rsi
