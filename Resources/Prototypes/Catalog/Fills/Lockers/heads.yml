@@ -10,6 +10,8 @@
       - id: ClothingHandsGlovesColorBrown
       - id: ClothingShoesColorBrown
       - id: ClothingHeadHatQMsoft
+      - id: ClothingUniformJumpsuitShirtQM
+      - id: ClothingUniformJumpskirtShirtQM
       - id: CargoRequestComputerCircuitboard
       - id: CargoShuttleComputerCircuitboard
       - id: CargoShuttleConsoleCircuitboard
@@ -109,7 +111,7 @@
       - id: BoxHeadset
       - id: IDComputerCircuitboard
       - id: ClothingUniformJumpskirtTurtleneckHoP
-      - id: ClothingUniformJumpskirtTurtleneckHoP
+      - id: ClothingUniformJumpsuitTurtleneckHoP
       - id: WeaponDisabler
       - id: ClothingShoesColorBlack
       - id: CigarGoldCase
@@ -140,6 +142,8 @@
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
+      - id: ClothingUniformJumpskirtTurtleneckCE
+      - id: ClothingUniformJumpsuitTurtleneckCE
       - id: ClothingShoesBootsMagAdv
       - id: ClothingHandsGlovesColorYellow
       - id: CigarCase
@@ -185,6 +189,8 @@
       - id: ClothingOuterCoatLabCmo
       - id: ClothingMaskSterile
       - id: ClothingHeadHatBeretCmo
+      - id: ClothingUniformJumpsuitTurtleneckCMO
+      - id: ClothingUniformJumpskirtTurtleneckCMO
       - id: ClothingOuterHardsuitMedical
       - id: DiagnoserMachineCircuitboard
       - id: VaccinatorMachineCircuitboard
@@ -238,6 +244,8 @@
       - id: ClothingHeadsetMedicalScience
       - id: ClothingOuterHardsuitRd
       - id: HandTeleporter
+      - id: ClothingUniformJumpsuitShirtRD
+      - id: ClothingUniformJumpskirtShirtRD
       - id: DoorRemoteResearch
       - id: ClothingHeadHatBeretRND
       - id: RubberStampRd
