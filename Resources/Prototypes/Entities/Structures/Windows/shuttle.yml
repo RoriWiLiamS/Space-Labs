@@ -38,6 +38,11 @@
         acts: [ "Destruction" ]
   - type: IconSmooth
     base: swindow
+#spacelabs
+  - type: Construction
+    graph: SlWindows
+    node: shuttleWindow
+#spacelabs
   - type: Appearance
   - type: DamageVisuals
     thresholds: [4, 8, 12]
