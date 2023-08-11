@@ -92,6 +92,8 @@
   - tp
   - tpto
   - respawn
+  - playtime_addrole
+  - playtime_addoverall
 
 - Flags: SERVER
   Commands:
@@ -133,4 +135,3 @@
 - Commands:
   - "|"
   - oldhelp
-  
