@@ -1,0 +1,10 @@
+- type: cargoProduct
+  name: Мини генератор гравитации
+  id: ShuttleGravityGeneratorMini
+  icon:
+    sprite: Structures/Machines/gravity_generator_mini.rsi
+    state: on
+  product: GravityGeneratorMini
+  cost: 3000
+  category: Shuttle
+  group: market
