@@ -162,6 +162,8 @@
   - type: StorageFill
     contents:
       - id: ClothingNeckCloakCe
+      - id: ClothingUniformJumpskirtTurtleneckCE
+      - id: ClothingUniformJumpsuitTurtleneckCE
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
@@ -215,6 +217,8 @@
       #- name: ClothingEyesHudMedical #Removed until working properly
       - id: ClothingHeadsetAltMedical
       - id: ClothingCloakCmo
+      - id: ClothingUniformJumpsuitTurtleneckCMO
+      - id: ClothingUniformJumpskirtTurtleneckCMO
       - id: ClothingBackpackDuffelSurgeryFilled
       - id: ClothingOuterCoatLabCmo
       - id: ClothingMaskSterile
@@ -266,6 +270,8 @@
       - id: ClothingNeckCloakRd
       - id: ClothingHeadsetMedicalScience
       - id: HandTeleporter
+      - id: ClothingUniformJumpsuitShirtRD
+      - id: ClothingUniformJumpskirtShirtRD
       - id: DoorRemoteResearch
       - id: ClothingHeadHatBeretRND
       - id: RubberStampRd
