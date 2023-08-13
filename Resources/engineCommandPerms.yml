@@ -100,8 +100,6 @@
   - delete
   - pausemap
   - unpausemap
-  - restart
-  - shutdown
 
 - Flags: SPAWN
   Commands:
