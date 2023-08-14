@@ -88,20 +88,6 @@
           color: "#FFFFFF"
 
 - type: marking
-  id: MothAntennasFirewatch
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
-  sprites:
-  - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
-    state: firewatch
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-
-- type: marking
   id: MothAntennasDeathshead
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -158,20 +144,6 @@
           color: "#FFFFFF"
 
 - type: marking
-  id: MothAntennasOakworm
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
-  sprites:
-  - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
-    state: oakworm
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-
-- type: marking
   id: MothAntennasWitchking
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -179,20 +151,6 @@
   sprites:
   - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
     state: witchking
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-
-- type: marking
-  id: MothAntennasJungle
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
-  sprites:
-  - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
-    state: jungle
   coloring:
     default:
       type:
@@ -228,20 +186,6 @@
           color: "#FFFFFF"
 
 - type: marking
-  id: MothAntennasFeathery
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
-  sprites:
-  - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
-    state: feathery
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-
-- type: marking
   id: MothAntennasBrown
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -263,20 +207,6 @@
   sprites:
   - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
     state: plasmafire
-  coloring:
-    default:
-      type:
-        !type:SimpleColoring
-          color: "#FFFFFF"
-
-- type: marking
-  id: MothAntennasMoffra
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Moth]
-  sprites:
-  - sprite: SpaceLabs/Mobs/Customization/moth_antennas.rsi
-    state: moffra
   coloring:
     default:
       type:

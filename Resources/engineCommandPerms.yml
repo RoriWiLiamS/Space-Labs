@@ -92,14 +92,14 @@
   - tp
   - tpto
   - respawn
+  - playtime_addrole
+  - playtime_addoverall
 
 - Flags: SERVER
   Commands:
   - delete
   - pausemap
   - unpausemap
-  - restart
-  - shutdown
 
 - Flags: SPAWN
   Commands:
@@ -133,4 +133,3 @@
 - Commands:
   - "|"
   - oldhelp
-  

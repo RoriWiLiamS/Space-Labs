@@ -1,0 +1,26 @@
+- type: constructionGraph
+  id: SlWindows
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: shuttleWindow
+          steps:
+            - material: ReinforcedGlass
+              amount: 5
+              doAfter: 2
+
+    - node: shuttleWindow
+      entity: ShuttleWindow
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetReinforcedGlass1
+              amount: 5
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2

@@ -697,6 +697,11 @@
     sprite: Structures/Walls/shuttle.rsi
   - type: Icon
     sprite: Structures/Walls/shuttle.rsi
+    #Space-labs
+  - type: Construction
+    graph: SLWalls
+    node: shuttleWall
+    #Space-labs
   - type: Destructible
     thresholds:
     - trigger:

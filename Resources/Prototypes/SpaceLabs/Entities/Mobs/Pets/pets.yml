@@ -1,0 +1,181 @@
+- type: entity
+  name: Слизнекися
+  parent: SimpleMobBase
+  id: MobSlugCat
+  description: как оно тут окозалось?
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: SpaceLabs/Mobs/Pets/slugcat.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: slugcat
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 12
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: cat
+    templateId: pet
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: slugcat
+      Critical:
+        Base: slugcat_dead
+      Dead:
+        Base: slugcat_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodDonutJellySlugcat
+      amount: 2
+  - type: Bloodstream
+    bloodReagent: Slime
+  - type: InteractionPopup
+    successChance: 0.9
+    interactSuccessString: petting-success-cat
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Animals/cat_meow.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Tag
+    tags:
+    - CannotSuicide
+
+- type: entity
+  name: Пятнышко
+  parent: SimpleMobBase
+  id: MobCalicoSlugCat
+  description: только посмотрите на эти пятна!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: SpaceLabs/Mobs/Pets/calicoslugcat.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: calicoslugcat
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 12
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: cat
+    templateId: pet
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: calicoslugcat
+      Critical:
+        Base: calicoslugcat_dead
+      Dead:
+        Base: calicoslugcat_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodDonutJellySlugcat
+      amount: 2
+  - type: Bloodstream
+    bloodReagent: Slime
+  - type: InteractionPopup
+    successChance: 0.9
+    interactSuccessString: petting-success-cat
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Animals/cat_meow.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Tag
+    tags:
+    - CannotSuicide
+
+- type: entity
+  name: Грибобас
+  parent: SimpleMobBase
+  id: MobShroomSlugCat
+  description: это точно сбежало из холодильника.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: SpaceLabs/Mobs/Pets/shroomslugcat.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: shroomslugcat
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 12
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: cat
+    templateId: pet
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: shroomslugcat
+      Critical:
+        Base: shroomslugcat_dead
+      Dead:
+        Base: shroomslugcat_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodSpaceshroom
+      amount: 2
+  - type: Bloodstream
+    bloodReagent: Slime
+  - type: PointLight
+    color: orange
+  - type: InteractionPopup
+    successChance: 0.9
+    interactSuccessString: petting-success-cat
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Animals/cat_meow.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Tag
+    tags:
+    - CannotSuicide
