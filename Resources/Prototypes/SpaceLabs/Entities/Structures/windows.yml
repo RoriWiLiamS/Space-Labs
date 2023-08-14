@@ -1,0 +1,223 @@
+- type: entity
+  id: WindowDiagonal
+  name: диагональное окно
+  description: Смотри не заляпай.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path:
+          "/Audio/Effects/glass_hit.ogg"
+  - type: Transform
+    anchored: true
+  - type: WallMount
+    arc: 360 # interact despite grilles
+  - type: Clickable
+  - type: Tag
+    tags:
+      - RCDDeconstructWhitelist
+      - ForceFixRotations
+      - Window
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: SpaceLabs/Structures/Windows/diagonal_window.rsi
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: SpaceLabs/Structures/Windows/diagonal_window.rsi
+    state: state0
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Glass
+  - type: ExaminableDamage
+    messages: WindowMessages
+  - type: Physics
+    bodyType: Static
+  - type: Pullable
+  - type: Construction
+    graph: SLDiagonalWindow
+    node: window
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Repairable
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 150 #excess damage (nuke?). avoid computational cost of spawning entities.
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 2
+    trackAllDamage: true
+    damageOverlay:
+      sprite: SpaceLabs/Structures/Windows/diagonal_cracks.rsi
+  - type: StaticPrice
+    price: 100
+  - type: InteractionPopup
+    interactSuccessString: comp-window-knock
+    messagePerceivedByOthers: comp-window-knock
+    interactSuccessSound:
+      path: /Audio/Effects/glass_knock.ogg
+
+- type: entity
+  parent: WindowDiagonal
+  id: ReinforcedWindowDiagonal
+  name: армированное диагональное окно
+  description: Смотри не заляпай.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: SpaceLabs/Structures/Windows/diagonal_reinforcedwindow.rsi
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: SpaceLabs/Structures/Windows/diagonal_reinforcedwindow.rsi
+    state: state0
+  - type: Repairable
+    fuelCost: 10
+    doAfterDelay: 2
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300 #excess damage (nuke?). Avoid computational cost of spawning entities.
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Appearance
+  - type: Construction
+    graph: SLDiagonalWindow
+    node: reinforcedWindow
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 10
+    trackAllDamage: true
+    damageOverlay:
+      sprite: SpaceLabs/Structures/Windows/diagonal_cracks.rsi
+
+- type: entity
+  parent: WindowDiagonal
+  id: ShuttleWindowDiagonal
+  name: диагональное окно шаттла
+  description: Смотри не заляпай.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: SpaceLabs/Structures/Windows/diagonal_shuttlewindow.rsi
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: SpaceLabs/Structures/Windows/diagonal_shuttlewindow.rsi
+    state: state0
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 2
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Appearance
+  - type: Construction
+    graph: SLDiagonalWindow
+    node: shuttleWindow
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 36
+    trackAllDamage: true
+    damageOverlay:
+      sprite: SpaceLabs/Structures/Windows/diagonal_cracks.rsi
