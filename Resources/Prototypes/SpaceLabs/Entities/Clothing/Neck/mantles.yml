@@ -8,5 +8,15 @@
     sprite: SpaceLabs/Clothing/Neck/mantles/CCmantle.rsi
   - type: Clothing
     sprite: SpaceLabs/Clothing/Neck/mantles/CCmantle.rsi
-    
-    
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleMaster
+  name: Мантия Великого Мастера
+  description: Безупречная черно-фиолетовая мантия Великого Мастера. Вы чувствуете, что мантия источает энергию мудрости.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Neck/Mantles/mastermantle.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Neck/Mantles/mastermantle.rsi

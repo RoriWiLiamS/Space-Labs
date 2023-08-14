@@ -13,10 +13,58 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTurtleneckHoP
-  name: водолазка главы персонала
+  name: Водолазка главы персонала
   description: Водолазка синего цвета, выглядящая удобной, тёплой и уютной.
   components:
   - type: Sprite
     sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/hop_turtleneck.rsi
   - type: Clothing
     sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/hop_turtleneck.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitShirtQM
+  name: Рубашка квартирмейстера
+  description: Рубашка с подтяжками и короткими рукавами для удобства в работе.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/qm_shirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/qm_shirt.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitShirtRD
+  name: Рубашка научного руководителя
+  description: Рубашка фиолетового цвета для тех, кому не хватает официальности.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/rd_shirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/rd_shirt.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTurtleneckCMO
+  name: Водолазка Главного Врача
+  description: Водолазка главного врача. Чтобы быть здоровым, нужно держать тело в тепле!
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/cmo_turtleneck.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/cmo_turtleneck.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTurtleneckCE
+  name: Водолазка Старшего Инженера
+  description: Водолазка старшего инженера согреет в холодном космосе.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/ce_turtleneck.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpsuit/ce_turtleneck.rsi
