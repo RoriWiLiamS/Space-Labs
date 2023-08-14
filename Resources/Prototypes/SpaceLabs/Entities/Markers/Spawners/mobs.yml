@@ -1,0 +1,38 @@
+- type: entity
+  name: спавнер слизнекиси
+  id: SpawnMobSlugCat
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobSlugCat
+
+- type: entity
+  name: спавнер пятнышка
+  id: SpawnMobCalicoSlugCat
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobCalicoSlugCat
+
+- type: entity
+  name: спавнер грибобаса
+  id: SpawnMobShroomSlugCat
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobShroomSlugCat
