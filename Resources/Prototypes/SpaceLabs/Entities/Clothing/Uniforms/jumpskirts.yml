@@ -1,0 +1,58 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTurtleneckHoP
+  name: Юбка-водолазка главы персонала
+  description: Юбка-водолазка, выглядящая удобной, тёплой и уютной.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/hop_turtleneckskirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/hop_turtleneckskirt.rsi
+
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtShirtQM
+  name: Рубашка с юбкой квартирмейстера
+  description: Рубашка с юбкой, подтяжками и короткими рукавами для удобства в работе.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/qm_shirtskirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/qm_shirtskirt.rsi
+
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtShirtRD
+  name: Рубашка с юбкой научного руководителя
+  description: Рубашка с юбкой фиолетового цвета для тех, кому не хватает официальности.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/rd_shirtskirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/rd_shirtskirt.rsi
+
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTurtleneckCMO
+  name: Юбка-водолазка Главного Врача
+  description: Юбка-водолазка главного врача. Чтобы быть здоровым, нужно держать тело в тепле!
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/cmo_turtleneckskirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/cmo_turtleneckskirt.rsi
+
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtTurtleneckCE
+  name: Юбка-водолазка Старшего Инженера
+  description: Юбка-водолазка старшего инженера согреет в холодном космосе.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/ce_turtleneckskirt.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Uniforms/Jumpskirt/ce_turtleneckskirt.rsi
