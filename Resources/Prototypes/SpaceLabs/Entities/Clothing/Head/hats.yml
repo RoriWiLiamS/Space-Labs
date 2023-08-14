@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatsMasterBeret
+  name: Берет Великого Мастера
+  description: Очаровательный черно-фиолетовый берет уважаемого Великого Мастера.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Head/Hats/masterberet.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Head/Hats/masterberet.rsi
