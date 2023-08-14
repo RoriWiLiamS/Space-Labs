@@ -1,0 +1,9 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelCC
+  name: Вещмешок Центком
+  description: Большой вещмешок для офицера Центрального Командования.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Back/Duffels/CC.rsi
+    

@@ -1,5 +1,17 @@
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckMantleCC
+  name: Мантия Центком
+  description: Вычурная мантия с золотой бахромой для офицеров флота НаноТрейзен
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Neck/mantles/CCmantle.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Neck/mantles/CCmantle.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckMantleMaster
   name: Мантия Великого Мастера
   description: Безупречная черно-фиолетовая мантия Великого Мастера. Вы чувствуете, что мантия источает энергию мудрости.
