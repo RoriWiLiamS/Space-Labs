@@ -10,8 +10,10 @@
       - id: ClothingHandsGlovesColorBrown
       - id: ClothingShoesColorBrown
       - id: ClothingHeadHatQMsoft
+      #SpaceLabs-start
       - id: ClothingUniformJumpsuitShirtQM
       - id: ClothingUniformJumpskirtShirtQM
+      #SpaceLabs-end
       - id: CargoRequestComputerCircuitboard
       - id: CargoShuttleComputerCircuitboard
       - id: CargoShuttleConsoleCircuitboard
@@ -110,8 +112,10 @@
       - id: BoxID
       - id: BoxHeadset
       - id: IDComputerCircuitboard
+      #SpaceLabs-start
       - id: ClothingUniformJumpskirtTurtleneckHoP
       - id: ClothingUniformJumpsuitTurtleneckHoP
+      #SpaceLabs-end
       - id: WeaponDisabler
       - id: ClothingShoesColorBlack
       - id: CigarGoldCase
@@ -142,8 +146,10 @@
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
+      #SpaceLabs-start
       - id: ClothingUniformJumpskirtTurtleneckCE
       - id: ClothingUniformJumpsuitTurtleneckCE
+      #SpaceLabs-end
       - id: ClothingShoesBootsMagAdv
       - id: ClothingHandsGlovesColorYellow
       - id: CigarCase
@@ -162,8 +168,10 @@
   - type: StorageFill
     contents:
       - id: ClothingNeckCloakCe
+      #SpaceLabs-start
       - id: ClothingUniformJumpskirtTurtleneckCE
       - id: ClothingUniformJumpsuitTurtleneckCE
+      #SpaceLabs-start
       - id: ClothingEyesGlassesMeson
       - id: ClothingBeltChiefEngineerFilled
       - id: ClothingHeadHatBeretEngineering
@@ -191,8 +199,10 @@
       - id: ClothingOuterCoatLabCmo
       - id: ClothingMaskSterile
       - id: ClothingHeadHatBeretCmo
+      #SpaceLabs-start
       - id: ClothingUniformJumpsuitTurtleneckCMO
       - id: ClothingUniformJumpskirtTurtleneckCMO
+      #SpaceLabs-start
       - id: ClothingOuterHardsuitMedical
       - id: DiagnoserMachineCircuitboard
       - id: VaccinatorMachineCircuitboard
@@ -217,8 +227,10 @@
       #- name: ClothingEyesHudMedical #Removed until working properly
       - id: ClothingHeadsetAltMedical
       - id: ClothingCloakCmo
+      #SpaceLabs-start
       - id: ClothingUniformJumpsuitTurtleneckCMO
       - id: ClothingUniformJumpskirtTurtleneckCMO
+      #SpaceLabs-start
       - id: ClothingBackpackDuffelSurgeryFilled
       - id: ClothingOuterCoatLabCmo
       - id: ClothingMaskSterile
@@ -248,8 +260,10 @@
       - id: ClothingHeadsetMedicalScience
       - id: ClothingOuterHardsuitRd
       - id: HandTeleporter
+      #SpaceLabs-start
       - id: ClothingUniformJumpsuitShirtRD
       - id: ClothingUniformJumpskirtShirtRD
+      #SpaceLabs-start
       - id: DoorRemoteResearch
       - id: ClothingHeadHatBeretRND
       - id: RubberStampRd
@@ -270,8 +284,10 @@
       - id: ClothingNeckCloakRd
       - id: ClothingHeadsetMedicalScience
       - id: HandTeleporter
+      #SpaceLabs-start
       - id: ClothingUniformJumpsuitShirtRD
       - id: ClothingUniformJumpskirtShirtRD
+      #SpaceLabs-start
       - id: DoorRemoteResearch
       - id: ClothingHeadHatBeretRND
       - id: RubberStampRd
