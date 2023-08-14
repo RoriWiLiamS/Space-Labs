@@ -1,0 +1,74 @@
+- type: construction
+  name: Diagonal grille
+  id: GrilleDiagonal
+  graph: SLDiagonalGrille
+  startNode: start
+  targetNode: grille
+  category: construction-category-structures
+  description: A flimsy framework of iron rods.
+  conditions:
+    - !type:TileNotBlocked
+      failIfSpace: false
+  icon:
+    sprite: SpaceLabs/Structures/Walls/diagonal_grille.rsi
+    state: grille
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+
+- type: construction
+  name: Diagonal window
+  id: WindowDiagonal
+  graph: SLDiagonalWindow
+  startNode: start
+  targetNode: window
+  category: construction-category-structures
+  description: Clear.
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  icon:
+    sprite: SpaceLabs/Structures/Windows/diagonal_window.rsi
+    state: state0
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+
+- type: construction
+  name: Diagonal reinforced window
+  id: WindowReinforcedDiagonal
+  graph: SLDiagonalWindow
+  startNode: start
+  targetNode: reinforcedWindow
+  category: construction-category-structures
+  description: Clear.
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  icon:
+    sprite: SpaceLabs/Structures/Windows/diagonal_reinforcedwindow.rsi
+    state: state0
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+
+- type: construction
+  name: Diagonal shuttle window
+  id: WindowShuttleDiagonal
+  graph: SLDiagonalWindow
+  startNode: start
+  targetNode: shuttleWindow
+  category: construction-category-structures
+  description: Clear.
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  icon:
+    sprite: SpaceLabs/Structures/Windows/diagonal_shuttlewindow.rsi
+    state: state0
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
