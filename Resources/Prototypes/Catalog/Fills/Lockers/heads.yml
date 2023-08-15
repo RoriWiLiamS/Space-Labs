@@ -219,12 +219,7 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
-      #SpaceLabs-start
-      - id:CloningPodMachineCircuitboard
-      - id:MedicalScannerMachineCircuitboard
-      - id:CloningConsoleComputerCircuitboard
-      #SpaceLabs-end
-      
+
 - type: entity
   id: LockerChiefMedicalOfficerFilled
   suffix: Filled
@@ -255,11 +250,6 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
-      #SpaceLabs-start
-      - id:CloningPodMachineCircuitboard
-      - id:MedicalScannerMachineCircuitboard
-      - id:CloningConsoleComputerCircuitboard
-      #SpaceLabs-end
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
