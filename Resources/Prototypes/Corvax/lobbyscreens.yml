@@ -1,6 +1,7 @@
-﻿- type: lobbyBackground
-  id: BarLife
-  background: /Textures/Corvax/LobbyScreens/bar-life.png
+
+#- type: lobbyBackground
+#  id: BarLife
+#  background: /Textures/Corvax/LobbyScreens/bar-life.png
 
 - type: lobbyBackground
   id: DeadInSpace
@@ -18,9 +19,9 @@
   id: EngineersChill
   background: /Textures/Corvax/LobbyScreens/engineers-chill.png
 
-- type: lobbyBackground
-  id: Greytide
-  background: /Textures/Corvax/LobbyScreens/greytide.png
+#- type: lobbyBackground
+#  id: Greytide
+#  background: /Textures/Corvax/LobbyScreens/greytide.png
 
 - type: lobbyBackground
   id: Hydroponics
@@ -66,9 +67,9 @@
   id: Russellmart
   background: /Textures/Corvax/LobbyScreens/russellmart.png
 
-- type: lobbyBackground
-  id: Sidor
-  background: /Textures/Corvax/LobbyScreens/sidor.png
+#- type: lobbyBackground
+#  id: Sidor
+#  background: /Textures/Corvax/LobbyScreens/sidor.png
 
 - type: lobbyBackground
   id: Singulord
