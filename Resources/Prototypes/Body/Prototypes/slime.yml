@@ -10,8 +10,8 @@
     torso:
       part: TorsoSlime
       connections:
-      - left arm
       - right arm
+      - left arm
       - left leg
       - right leg
       organs:
