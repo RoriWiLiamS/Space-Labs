@@ -1,0 +1,166 @@
+- type: entity
+  name: черный диван
+  suffix: угол
+  id: BlackSofaCorner
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_black_corner
+
+- type: entity
+  name: черный диван
+  suffix: левый конец
+  id: BlackSofaLeftEnd
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_black_endl
+
+- type: entity
+  name: черный диван
+  suffix: правый конец
+  id: BlackSofaRightEnd
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_black_endr
+
+- type: entity
+  name: черный диван
+  suffix: середина
+  id: BlackSofaMiddle
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_black_middle
+
+- type: entity
+  name: белый диван
+  suffix: угол
+  id: WhiteSofaCorner
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_white_corner
+
+- type: entity
+  name: белый диван
+  suffix: левый конец
+  id: WhiteSofaLeftEnd
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_white_endl
+
+- type: entity
+  name: белый диван
+  suffix: правый конец
+  id: WhiteSofaRightEnd
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_white_endr
+
+- type: entity
+  name: белый диван
+  suffix: середина
+  id: WhiteSofaMiddle
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: sofa_white_middle
+
+- type: entity
+  name: церковная скамейка
+  suffix: середина
+  id: PewendMiddle
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: pewend_middle
+
+- type: entity
+  name: церковная скамейка
+  suffix: левая часть
+  id: PewendLeftEnd
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: pewend_left
+
+- type: entity
+  name: церковная скамейка
+  suffix: правая часть
+  id: PewendRightEnd
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: pewend_right
+
+- type: entity
+  name: скамейка
+  id: SoloBench
+  parent: SeatBase
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: SpaceLabs/Structures/Furniture/wide_chairs.rsi
+    state: bench_solo
