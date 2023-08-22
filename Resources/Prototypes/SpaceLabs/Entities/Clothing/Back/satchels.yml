@@ -5,5 +5,4 @@
   description: Сумка для офицера Центрального Командования.
   components:
   - type: Sprite
-    sprite: SpaceLabs/Clothing/Back/Satchels/CC.rsi
-   
+    sprite: SpaceLabs/Clothing/Back/Satchels/centcom.rsi
