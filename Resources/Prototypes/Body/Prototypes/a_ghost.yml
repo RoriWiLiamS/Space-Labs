@@ -1,22 +1,27 @@
 ﻿- type: body
   id: Aghost
   name: "aGhost"
-  root: torso
+  root: hand 1
   slots:
-    torso:
-      part: TorsoHuman
+    hand 1:
+      part: RightArmBorg
       connections:
-      - right arm
-      - left arm
-    right arm:
-      part: RightArmHuman
+      - hand 2
+    hand 2:
+      part: RightArmBorg
       connections:
-      - right hand
-    left arm:
-      part: LeftArmHuman
+      - hand 3
+    hand 3:
+      part: RightArmBorg
       connections:
-      - left hand
-    right hand:
-      part: RightHandHuman
-    left hand:
-      part: LeftHandHuman
+      - hand 4
+    hand 4:
+      part: LeftArmBorg
+      connections:
+      - hand 5
+    hand 5:
+      part: LeftArmBorg
+      connections:
+      - hand 6
+    hand 6:
+      part: LeftArmBorg
