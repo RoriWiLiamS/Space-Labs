@@ -17,6 +17,9 @@
   - type: Ghost
     canInteract: true
   - type: Hands
+  - type: InnateTool
+    tools:
+      - id: ClothingBackpackAdmin
   - type: Puller
   - type: Sprite
     overrideContainerOcclusion: true # Ghosts always show up regardless of where they're contained.
@@ -130,3 +133,4 @@
     stealthy: true
   - type: Stripping
   - type: SolutionScanner
+  - type: IgnoreUIRange

@@ -1,0 +1,9 @@
+- type: marking
+  id: FelinidTailFox
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Felinid  ]
+  sponsorOnly: true
+  sprites:
+  - sprite:  SpaceLabs/Mobs/Customization/fox_tail.rsi
+    state: fox_tail_wagging

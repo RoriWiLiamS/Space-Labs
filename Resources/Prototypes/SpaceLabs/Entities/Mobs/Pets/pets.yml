@@ -2,7 +2,7 @@
   name: Слизнекися
   parent: SimpleMobBase
   id: MobSlugCat
-  description: как оно тут окозалось?
+  description: как оно тут оказалось?
   components:
   - type: Sprite
     drawdepth: Mobs

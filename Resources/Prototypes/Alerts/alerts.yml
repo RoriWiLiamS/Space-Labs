@@ -111,8 +111,8 @@
 - type: alert
   id: Stun
   icons:
-  - sprite: /Textures/Objects/Weapons/Melee/stunbaton.rsi #Should probably draw a proper icon
-    state: stunbaton_off
+  - sprite: /Textures/SpaceLabs/Interface/Alerts/stun.rsi
+    state: stunned
   name: alerts-stunned-name
   description: alerts-stunned-desc
 

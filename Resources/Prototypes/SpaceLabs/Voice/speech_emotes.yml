@@ -96,30 +96,6 @@
      - мурлычет
      # Space-Labs-Localization-End
 
-
- - type: emote
-   id: Squeak
-   category: Vocal
-   chatMessages: [пищит]
-   chatTriggers:
-    - squeak
-    - squeak.
-    - squeak!
-    - squeaks
-    - squeaks.
-    - squeaks!
-    - squeaking
-    - squeaking.
-    - squeaking!
-    - squeaked
-    - squeaked.
-    - squeaked!
-    # Space-labs-Localization Start
-    - пищит
-    - пищать
-    - писк
-    # Space-Labs-Localization-End
-
  - type: emote
    id: Bark
    category: Vocal

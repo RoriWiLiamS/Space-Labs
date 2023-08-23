@@ -1,0 +1,19 @@
+- type: marking
+  id: ScarEyeRight
+  bodyPart: Eyes
+  markingCategory: Head
+  speciesRestriction: [Human, Reptilian, Dwarf, Felinid, Vulpkanin]
+  sponsorOnly: true
+  sprites:
+  - sprite: SpaceLabs/Mobs/Customization/scars.rsi
+    state: scar_eye_r
+
+- type: marking
+  id: ScarEyeLeft
+  bodyPart: Eyes
+  markingCategory: Head
+  speciesRestriction: [Human, Reptilian, Dwarf, Felinid, Vulpkanin]
+  sponsorOnly: true
+  sprites:
+  - sprite: SpaceLabs/Mobs/Customization/scars.rsi
+    state: scar_eye_l

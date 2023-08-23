@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/tgstation/tgstation/blob/acc472e0335c06eaccbb1c7122b92df63cf6ffa5/icons/obj/chairs_wide.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pewend_left",
+      "directions": 4
+    },
+    {
+      "name": "pewend_right",
+      "directions": 4
+    },
+    {
+      "name": "pewend_middle",
+      "directions": 4
+    },
+    {
+      "name": "sofa_black_corner",
+      "directions": 4
+    },
+    {
+      "name": "sofa_black_endl",
+      "directions": 4
+    },
+    {
+      "name": "sofa_black_endr",
+      "directions": 4
+    },
+    {
+      "name": "sofa_black_middle",
+      "directions": 4
+    },
+    {
+      "name": "sofa_white_corner",
+      "directions": 4
+    },
+    {
+      "name": "sofa_white_endl",
+      "directions": 4
+    },
+    {
+      "name": "sofa_white_endr",
+      "directions": 4
+    },
+    {
+      "name": "sofa_white_middle",
+      "directions": 4
+    },
+    {
+      "name": "bench_solo",
+      "directions": 4
+    }
+  ]
+}

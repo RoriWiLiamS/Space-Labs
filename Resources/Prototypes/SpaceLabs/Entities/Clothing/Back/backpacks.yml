@@ -5,5 +5,16 @@
   description: Рюкзах для офицера Центрального Командования.
   components:
   - type: Sprite
-    sprite: SpaceLabs/Clothing/Back/Backpacks/CC.rsi
-    
+    sprite: SpaceLabs/Clothing/Back/Backpacks/centcom.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackAdmin
+  name: Рюкзак Админа
+  description: тут хранят набегаторов.
+  components:
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Back/Backpacks/admin_backpack.rsi
+    state: icon
+  - type: Storage
+    capacity: 9999
