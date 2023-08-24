@@ -27,7 +27,6 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
-      - id: MagazinePistol
 
 - type: entity
   noSpawn: true
@@ -114,7 +113,6 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
-      - id: MagazinePistol
 
 - type: entity
   noSpawn: true
