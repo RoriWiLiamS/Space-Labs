@@ -39,7 +39,7 @@
     - type: GridSpawn
       paths:
         - /Maps/Shuttles/cargo.yml
-        - /Maps/SpaceLabs/Shuttles/mining.yml
+        - /Maps/Shuttles/mining.yml
 
 - type: entity
   id: BaseStationCentcomm
