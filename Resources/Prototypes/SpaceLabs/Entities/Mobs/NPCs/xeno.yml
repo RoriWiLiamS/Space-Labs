@@ -1,0 +1,93 @@
+- type: entity
+  name: Ксеногорничная
+  description: Очевидно из кого он вылез.
+  suffix: Адмеме
+  parent: SimpleSpaceMobBase
+  id: MobXenoMaid
+  components:
+  - type: Insulated
+  - type: CombatMode
+  - type: InputMover
+  - type: MobMover
+  - type: Puller
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatXeno
+      amount: 5
+  - type: Tool
+    speed: 1.5
+    qualities:
+      - Prying
+    useSound:
+      path: /Audio/Items/crowbar.ogg
+  - type: Body
+    prototype: XenoMaid
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: InteractionPopup
+    successChance: 0.9
+    interactSuccessString: petting-success-xeno
+    interactFailureString: petting-failure-generic
+  - type: Hands
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: SpaceLabs/Mobs/Aliens/Xenos/xeno_maid.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: running
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: running
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 1000
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Dead
+  - type: Stamina
+    critThreshold: 150
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.7
+    baseSprintSpeed: 3.6
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Ксеногорничная
+    description: Вы ксено вылезший из горничной, продолжите её дело или уничтожьте всех.
+  - type: GhostTakeoverAvailable
+  - type: TypingIndicator
+    proto: alien
+  - type: MeleeWeapon
+    hidden: true
+    damage:
+     groups:
+       Brute: 10
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - CannotSuicide
+    - DoorBumpOpener
+    - FootstepSound
+  - type: Perishable
+    molsPerSecondPerUnitMass: 0.0005
