@@ -46,7 +46,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
     suitstorage: OxygenTankFilled
-    shoes: ClothingShoesBootsMagAdv
+    shoes: ClothingShoesBootsMagDeathSquad
     id: DeathsquadPDA
     pocket1: EnergySword
     belt: ClothingBeltChiefEngineerFilled
