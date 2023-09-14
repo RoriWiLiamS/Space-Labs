@@ -1,8 +1,7 @@
 - type: gameMapPool
   id: SpaceLabsDefaultMapPool
   maps:
-  - CorvaxBox
-  - CorvaxIshimura
+  - Box
   - Aspid
   - Bagel
   - Cluster
