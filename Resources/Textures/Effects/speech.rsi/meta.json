@@ -629,50 +629,6 @@
             ]
         },
         {
-<<<<<<< HEAD
-            "name": "ghost0",
-            "delays": [
-                [
-                    0.4,
-                    0.4,
-                    0.4
-=======
-            "name": "spider0",
-            "delays": [
-                [
-                    0.2,
-                    0.2,
-                    0.2,
-                    0.2
->>>>>>> corvax/master
-                ]
-            ]
-        },
-        {
-<<<<<<< HEAD
-            "name": "ghost1"
-        },
-        {
-            "name": "ghost2"
-=======
-            "name": "spider1"
-        },
-        {
-            "name": "spider2"
-        },
-        {
-            "name": "spider3",
-            "delays": [
-                [
-                    0.2,
-                    0.2,
-                    0.2,
-                    0.2
-                ]
-            ]
-    "copyright": "https://github.com/tgstation/tgstation/commit/e1d7836b6044a327530082cc43a55cc01a4d04bb | Moth sprites made by PuroSlavKing (Github) | Spider sprites made by PixelTheKermit (Github)",
-        },
-        {
             "name": "spider0",
             "delays": [
                 [
