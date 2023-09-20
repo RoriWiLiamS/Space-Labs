@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetDeathSquad
+  name: гарнитура эскадрона
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCentCom
+      - EncryptionKeyDeathSquad
+  - type: Sprite
+    sprite: SpaceLabs/Clothing/Ears/Headsets/deathsquad.rsi
+  - type: Clothing
+    sprite: SpaceLabs/Clothing/Ears/Headsets/deathsquad.rsi

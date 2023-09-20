@@ -1,0 +1,24 @@
+- type: entity
+  id: RandomHumanoidSpawnerDeathSquad
+  name: Эскадрон смерти
+  components:
+    - type: Sprite
+      sprite: SpaceLabs/Markers/jobs.rsi
+      state: deathsquad
+    - type: RandomMetadata
+      nameSegments: [ SyndicateNamesElite ]
+    - type: RandomHumanoidSpawner
+      settings: DeathSquad
+
+- type: randomHumanoidSettings
+  id: DeathSquad
+  randomizeName: false
+  components:
+    - type: GhostRole
+      name: Эскадрон Смерти
+      description: Вы альфа и омега, начало и конец.
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ DeathSquadGear ]
+    - type: RandomMetadata
+      nameSegments:  [SyndicateNamesElite]
