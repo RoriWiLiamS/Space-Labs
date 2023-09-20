@@ -12,3 +12,18 @@
     layers:
     - state: crypt_orange
     - state: miner_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyDeathSquad
+  name: ключ шифрования эскадрона
+  description: Секретный ключ шифрования эскадрона смерти.
+  components:
+  - type: EncryptionKey
+    channels:
+    - DeathSquadron
+    defaultChannel: DeathSquadron
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: ds_label

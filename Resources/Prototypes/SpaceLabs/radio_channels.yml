@@ -5,3 +5,11 @@
   frequency: 2023
   color: "#FF6600"
   longRange: true
+
+- type: radioChannel
+  id: DeathSquadron
+  name: Эскадрон
+  keycode: 'э'
+  frequency: 1984
+  color: "#9400d3"
+  longRange: true

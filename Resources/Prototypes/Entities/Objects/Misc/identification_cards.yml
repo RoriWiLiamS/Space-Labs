@@ -487,11 +487,11 @@
   components:
   - type: Sprite
     layers:
-    - state: centcom
+    - state: deathsquad
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Centcom Agent
+    jobTitle: "E#R2R"
 
 - type: entity
   name: passenger ID card

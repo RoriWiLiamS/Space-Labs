@@ -658,12 +658,24 @@
     id: CentcomIDCardSyndie
 
 - type: entity
-  parent: CentcomPDA
+
   id: DeathsquadPDA
+  parent: BasePDA
   suffix: Deathsquad
   components:
   - type: Pda
     id: CentcomIDCardDeathsquad
+    state: pda-deathsquad
+    penSlot:
+      startingItem: Pen
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#0a0a0a" #оаоаоаоа
+    accentVColor: "#9400d3"
+  - type: Icon
+    state: pda-deathsquad
 
 - type: entity
   parent: BasePDA

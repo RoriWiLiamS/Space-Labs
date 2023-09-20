@@ -46,20 +46,17 @@
   id: DeathSquadGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
-    back: ClothingBackpackDuffelSyndicateAmmo
+    back: ClothingDeathSquadronBackpackFilled
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetDeathSquad
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
     suitstorage: OxygenTankFilled
-    shoes: ClothingShoesBootsMagAdv
+    shoes: ClothingShoesBootsMagDeathSquad
     id: DeathsquadPDA
     pocket1: EnergySword
-    belt: ClothingBeltChiefEngineerFilled
-  innerclothingskirt: ClothingUniformJumpskirtColorBlack
-  satchel: ClothingBackpackDuffelSyndicateAmmo
-  duffelbag: ClothingBackpackDuffelSyndicateAmmo
+    pocket2: WeaponRevolverMateba
 
 # Syndicate Operative Outfit - Monkey
 - type: startingGear
